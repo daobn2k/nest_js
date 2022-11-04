@@ -1,0 +1,12 @@
+{
+    "not_found": "Notification does not exist",
+
+    "template.not_found": "Template does not exist",
+
+    "topic.not_found": "Topic does not exist",
+    "topic.name_invalid": "Topic name is invalid",
+    "topic.existed": "Topic have already existed",
+    "topic.deleteable": "Topic {topicName} can not delete",
+    "topic.unique": "Topic can not set to {topicName}",
+    "topic.change_name_default": "Can not change name with default topic"
+}

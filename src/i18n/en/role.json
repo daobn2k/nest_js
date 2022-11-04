@@ -1,0 +1,8 @@
+{
+    "not_found": "Role does not exist",
+    "existed": "Role have already existed",
+    "deleteable": "Role {roleName} can not delete",
+    "unique": "Role can not set to {roleName}",
+    "name_invalid": "Role name is invalid",
+    "change_name_default": "Can not change name with default role"
+}

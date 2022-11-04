@@ -1,0 +1,18 @@
+{
+    "email.not_valid": "Email không đúng định dạng",
+    "phone.not_valid": "Số điện thoại không đúng định dạng",
+
+    "match_enum": "[{field}] không tương ứng với: {enum}",
+
+    "is_number": "{name} phải là number",
+    "is_array": "{name} phải array",
+    "is_array_number": "{name} phải array number",
+    "is_array_string": "{name} phải array string",
+    "is_string": "{name} phải là string",
+    "is_required": "{name} là bắt buộc",
+    "is_boolean": "{name} phải là boolean",
+    "is_object": "{name} phải là object",
+    "is_number_string": "{name} phải là number string",
+    "max": "{name} phải nhỏ hơn hoặc bằng {value}",
+    "min": "{name} phải lớn hơn hoặc bằng {value}"
+}

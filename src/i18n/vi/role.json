@@ -1,0 +1,8 @@
+{
+    "not_found": "Role không tồn tại",
+    "existed": "Role đã tồn tại",
+    "deleteable": "Role {roleName} không thể xóa",
+    "unique": "Role không được đặt là {roleName}",
+    "name_invalid": "Tên role không hợp lệ",
+    "change_name_default": "Không thể đổi tên role mặc định"
+}

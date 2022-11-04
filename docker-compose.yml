@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: postgres-base
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5434:5432
+    volumes:
+      - database_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_HOST: postgres-base
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: base
+
+  redis:
+    container_name: redis-base
+    image: 'redis:alpine'
+    restart: always
+    ports:
+      - 6381:6379
+    volumes:
+      - ./redis:/data
+
+  basebackend:
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+
+volumes:
+  database_data:
+  redis:

@@ -1,0 +1,7 @@
+{
+    "email.existed": "Email đã tồn tại",
+    "not_found": "Người dùng không tồn tại",
+    "password_not_same": "Mật khẩu mới không đưọc giống với mật khẩu cũ",
+    "old_password_invalid": "Mật khẩu cũ không đúng",
+    "can_not_sefl": "Không thể xóa chính mình"
+}

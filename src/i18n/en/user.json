@@ -1,0 +1,7 @@
+{
+    "email.existed": "Email has been existed",
+    "not_found": "User does not exist",
+    "password_not_same": "New password does not same as old password",
+    "old_password_invalid": "Old password is invalid",
+    "can_not_sefl": "Can not delete your sefl"
+}

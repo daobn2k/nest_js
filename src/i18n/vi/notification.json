@@ -1,0 +1,12 @@
+{
+    "not_found": "Thông báo không tồn tại",
+
+    "template.not_found": "Template không tồn tại",
+
+    "topic.not_found": "Topic không tồn tại",
+    "topic.name_invalid": "Tên topic không hợp lệ",
+    "topic.existed": "Topic đã tồn tại",
+    "topic.deleteable": "Topic {topicName} không thể xóa",
+    "topic.unique": "Topic không được đặt là {topicName}",
+    "topic.change_name_default": "Không thể đổi tên topic mặc định"
+}
