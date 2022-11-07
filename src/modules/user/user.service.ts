@@ -192,7 +192,7 @@ export class UserService {
       .leftJoinAndSelect('user.avatar', 'avatar')
       .select([
         'user.id',
-        'user.username',
+        'user.email',
         'roles.id',
         'roles.name',
         'roles.is_active',

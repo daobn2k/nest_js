@@ -21,6 +21,7 @@ import { AcceptLanguageResolver, I18nModule, QueryResolver } from 'nestjs-i18n';
 import * as path from 'path';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { RequestModule } from './modules/request/request.module';
 
 @Module({
   imports: [
@@ -57,6 +58,7 @@ import { AppService } from './app.service';
     NotificationModule,
     DeviceModule,
     SmsModule,
+    RequestModule,
   ],
   controllers: [AppController],
   providers: [

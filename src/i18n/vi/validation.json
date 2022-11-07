@@ -13,6 +13,7 @@
     "is_boolean": "{name} phải là boolean",
     "is_object": "{name} phải là object",
     "is_number_string": "{name} phải là number string",
+    "is_date":"{name} phải là dạng thời gian",
     "max": "{name} phải nhỏ hơn hoặc bằng {value}",
     "min": "{name} phải lớn hơn hoặc bằng {value}"
 }

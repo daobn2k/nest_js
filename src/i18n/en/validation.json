@@ -12,6 +12,7 @@
     "is_required": "{name} is required",
     "is_boolean": "{name} must be boolean",
     "is_object": "{name} must be object",
+    "is_date":"{name} must be date time",
     "is_number_string": "{name} must be number string",
     "max": "{name} must be equal or less than {value}",
     "min": "{name} must be equal or greater than {value}"

@@ -3,6 +3,7 @@ import File from '@modules/file/entities/file.entity';
 import Notification from '@modules/notification/entities/notification.entity';
 import NotificationTemplate from '@modules/notification/entities/notificationTemplate.entitiy';
 import NotificationTopic from '@modules/notification/entities/notificationTopic.entity';
+import Request from '@modules/request/entities/request.entity';
 import Role from '@modules/role/entities/role.entity';
 import {
   Column,
@@ -60,6 +61,9 @@ class User {
 
   @OneToMany(() => Device, (device) => device.user)
   devices: Device[];
+
+  @OneToMany(() => Request, (request) => request.user)
+  requests: Request[];
 
   @ManyToMany(() => Role, (role) => role.users, { cascade: true })
   @JoinTable({
